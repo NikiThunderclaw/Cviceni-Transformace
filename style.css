@@ -65,3 +65,18 @@ h2 {
 	transform: rotate(20deg);
 
 }
+
+.tlacitko {
+	background: yellow;
+	transition: background 0,3s;
+
+}
+
+.tlacitko:hover {
+	background: rgb(61, 43, 141);
+	
+}
+
+.hladitko:active + .kocka {
+	transform: scaleY(0.8);
+}
